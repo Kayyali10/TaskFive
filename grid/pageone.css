@@ -1,0 +1,11 @@
+.perant {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    gap: 10px;
+}
+
+.perant div {
+    background-color: rgb(50, 50, 99);
+    height: 200px;
+ 
+}
