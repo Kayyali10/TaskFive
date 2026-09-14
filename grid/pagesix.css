@@ -1,0 +1,16 @@
+.perant {
+    display: grid;
+    grid-template-columns:repeat(8,1fr);
+    padding: 20px;
+    gap: 10px;
+    background:linear-gradient(to right,red,blue);
+}
+
+.perant div {
+    background-color: orange;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}

@@ -1,0 +1,48 @@
+.perant {
+    display: grid;
+    grid-template-columns:1fr 1fr 200px;
+    grid-template-rows:200px 300px 200px ;
+    grid-template-areas: "one two two"
+                         "one four five"
+                         "three four six";
+                         gap: 10px;
+}
+
+.one {
+background-color: blue;
+color: white;
+grid-area: one;
+border-radius: 10px;
+}
+
+.two {
+    background-color:coral;
+    color: white;
+    grid-area: two;
+    border-radius: 10px;
+}
+
+.three {
+    background-color:darkmagenta;
+    color: white;
+    grid-area: three;
+    border-radius: 10px;
+}
+.four {
+    background-color:green;
+    color: white;
+    grid-area: four;
+    border-radius: 10px;
+}
+.five {
+    background-color:green;
+    color: white;
+    grid-area: five;
+    border-radius: 10px;
+}
+.six {
+    background-color:red;
+    color: white;
+    grid-area: six;
+    border-radius: 10px;
+}
