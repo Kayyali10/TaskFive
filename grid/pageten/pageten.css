@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    background-color: rgba(128, 128, 128, 0.283);
+}
+
+.card {
+    margin: 20px auto;
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.35);
+    padding: 20px;
+}
+
+.head-card {
+    display: grid;
+    grid-template-columns: 50px 1fr 30px;
+}
+
+.head-card div:nth-child(1) {
+    height: 34px;
+    width: 34px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.head-card div:nth-child(3) {
+    height: 0;
+    width: 0;
+    border-top: 10px solid red;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+
+}
+
+
+.main .red-card {
+    background-color: red;
+    width: 100%;
+    height: 300px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 20px;
+}
+
+
+.footer .f-two>span {
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    background-color: red;
+    border-radius: 50%;
+}

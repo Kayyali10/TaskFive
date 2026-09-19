@@ -1,0 +1,112 @@
+.perant {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px 200px;
+    gap: 10px;
+}
+
+.perant div:nth-child(1) {
+    background-color: rgba(128, 128, 128, 0.461);
+}
+
+.perant div:nth-child(4) {
+    background-color: rgba(128, 128, 128, 0.461);
+}
+
+.perant div:nth-child(5) {
+    background-color: rgba(128, 128, 128, 0.461);
+}
+
+.perant div:nth-child(8) {
+    background-color: rgba(128, 128, 128, 0.461);
+}
+
+.perant div:nth-child(10) {
+    background-color: rgba(128, 128, 128, 0.461);
+}
+
+.perant div:nth-child(11) {
+    background-color: rgba(128, 128, 128, 0.461);
+}
+
+
+.perant .sub-one {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 5px;
+    padding: 5px;
+    background-color: rgba(128, 128, 128, 0.461);
+}
+
+.perant .sub-one>div {
+    background-color: gray;
+}
+
+.perant .sub-two {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 5px;
+    padding: 5px;
+    background-color: rgba(128, 128, 128, 0.461);
+}
+
+.perant .sub-two>div {
+    background-color: gray;
+}
+
+
+.perant .sub-three {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 5px;
+    padding: 5px;
+    background-color: rgba(128, 128, 128, 0.461);
+}
+
+.perant .sub-three>div {
+    background-color: gray;
+}
+
+
+
+.perant .sub-four {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    padding: 5px;
+    background-color: rgba(128, 128, 128, 0.461);
+}
+
+.perant .sub-four>div {
+    background-color: gray;
+}
+
+
+.perant .sub-five {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 5px;
+    padding: 5px;
+    background-color: rgba(128, 128, 128, 0.461);
+}
+
+.perant .sub-five>div {
+    background-color: gray;
+}
+
+
+.perant .sub-six {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 5px;
+    padding: 5px;
+    background-color: rgba(128, 128, 128, 0.461);
+}
+
+.perant .sub-six>div {
+    background-color: gray;
+}
